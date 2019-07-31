@@ -13,7 +13,7 @@ class ProductPageLocators(object):
     PRODUCT_PRICE = (By.CLASS_NAME, "price_color")
     PRODUCT_NAME2 = (By.CSS_SELECTOR, "div.alertinner>strong")
     PRODUCT_PRICE2 = (By.CSS_SELECTOR, "div.alertinner>p>strong")
-
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, "div.alertinner")
 
 #name - //div[@class="col-sm-5"]/p/strong
 #price - //div[@class="alertinner "]/p/strong
